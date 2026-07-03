@@ -53,3 +53,16 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Mengabaikan file executable hasil kompilasi C
+*.exe
+*.out
+*.o
+*.obj
+
+# Mengabaikan file cache Python dan PyInstaller
+_pycache_/
+*.pyc
+build/
+dist/
+*.spec
